@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>PDF Toolkit — Privacy Policy | banshii</title>
+  <meta name="description" content="Privacy policy for PDF Toolkit Chrome extension.">
   <link rel="icon" type="image/svg+xml" href="../../assets/logo.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -32,39 +33,70 @@
       <div class="subpage-content">
         <a href="../../#extensions" class="back-link">&larr; Back to Extensions</a>
         <h1>PDF Toolkit Privacy Policy</h1>
-        <p class="subtitle">Last updated: March 2025</p>
+        <p class="subtitle">Last updated: March 27, 2026</p>
 
         <h2>Overview</h2>
-        <p>banshii ("we", "our", "us") operates PDF Toolkit. This Privacy Policy explains how we handle your information when you use our browser extension.</p>
+        <p>PDF Toolkit ("the Extension") is a browser extension that processes PDF and image files entirely within your browser. We are committed to protecting your privacy.</p>
+        <p><strong>The short version:</strong> Your files never leave your device. We don't collect, store, or transmit your documents. The only network request the Extension makes is to validate Pro license keys.</p>
 
-        <h2>Our Core Principle</h2>
-        <p><strong>Your files stay on your device.</strong> PDF Toolkit processes all files locally in your browser. We never upload, transmit, or store your PDF files on any server.</p>
-
-        <h2>Information We Collect</h2>
+        <h2>Data We Do NOT Collect</h2>
         <ul>
-          <li><strong>Anonymous usage analytics:</strong> We collect anonymous data about which features are used (e.g., merge vs. split) to help prioritize development. This data contains no file content or personal information.</li>
-          <li><strong>Error reports:</strong> If the extension encounters an error, an anonymous crash report may be sent to help us fix bugs.</li>
+          <li><strong>Your files.</strong> PDF and image files are processed entirely in your browser's memory. They are never uploaded to any server.</li>
+          <li><strong>Browsing history.</strong> The Extension does not track which websites you visit.</li>
+          <li><strong>Personal information.</strong> We do not collect names, email addresses, or any other personally identifiable information through the Extension itself.</li>
+          <li><strong>Analytics or telemetry.</strong> The Extension does not include any analytics, tracking pixels, or telemetry of any kind.</li>
         </ul>
 
-        <h2>Information We Do NOT Collect</h2>
+        <h2>Data Stored Locally</h2>
+        <p>The Extension stores the following data in your browser's local storage (<code>chrome.storage.local</code>). This data never leaves your device unless explicitly noted:</p>
         <ul>
-          <li>Your PDF files or their contents</li>
-          <li>Your browsing history</li>
-          <li>Personal identification information</li>
-          <li>File names or metadata</li>
+          <li><strong>Usage counter.</strong> A count of daily operations performed, used to enforce free-tier limits.</li>
+          <li><strong>License information.</strong> If you activate a Pro license, your license key and activation instance ID are stored locally to verify your subscription status.</li>
         </ul>
+
+        <h2>Network Requests</h2>
+        <p>The Extension makes network requests only in the following circumstance:</p>
+        <ul>
+          <li><strong>License validation.</strong> When you activate or re-validate a Pro license key, the Extension sends your license key to the Lemon Squeezy License API (<code>api.lemonsqueezy.com</code>) to confirm its validity. This request contains only the license key and an instance identifier — no files, no browsing data, and no personal information beyond what you provided to Lemon Squeezy when purchasing.</li>
+        </ul>
+        <p>Free-tier users generate zero network requests.</p>
 
         <h2>Permissions</h2>
-        <p>PDF Toolkit requests only the browser permissions necessary to function. We do not access your browsing data or any information beyond what's required to process the PDFs you choose to open with the extension.</p>
+        <p>The Extension requests the following browser permissions:</p>
+        <ul>
+          <li><strong><code>storage</code></strong> — To save your license status and usage counter locally.</li>
+          <li><strong><code>activeTab</code></strong> — To interact with the current tab when triggered by user action. This permission is narrowly scoped and does not grant persistent access.</li>
+          <li><strong><code>downloads</code></strong> (optional) — To save processed PDF files to your downloads folder. Requested only when needed.</li>
+        </ul>
 
-        <h2>Data Sharing</h2>
-        <p>We do not sell, share, or transmit any user data to third parties.</p>
+        <h2>Third-Party Services</h2>
+        <p>The only third-party service the Extension communicates with is:</p>
+        <ul>
+          <li><strong>Lemon Squeezy</strong> (lemonsqueezy.com) — Payment processing and license key validation for Pro subscribers. Lemon Squeezy's privacy policy is available at <a href="https://www.lemonsqueezy.com/privacy" target="_blank" rel="noopener">lemonsqueezy.com/privacy</a>.</li>
+        </ul>
+
+        <h2>Data Retention</h2>
+        <p>Usage counter data is automatically pruned after 30 days. License data is stored until you deactivate your license or uninstall the Extension. Uninstalling removes all locally stored data.</p>
+
+        <h2>Children's Privacy</h2>
+        <p>The Extension is not directed at children under 13 and does not knowingly collect any personal information from children.</p>
+
+        <h2>Your Rights</h2>
+        <p>You can delete all Extension data at any time by:</p>
+        <ul>
+          <li>Right-clicking the Extension icon and clearing its data, or</li>
+          <li>Uninstalling the Extension from <code>chrome://extensions</code>.</li>
+        </ul>
+        <p>If you are a resident of the European Economic Area (EEA), you have additional rights under the GDPR. Since the Extension does not collect personal data on any server, these rights are inherently satisfied.</p>
+
+        <h2>Limited Use Disclosure</h2>
+        <p>The use of information received from Chrome APIs adheres to the <a href="https://developer.chrome.com/docs/webstore/program-policies/limited-use" target="_blank" rel="noopener">Chrome Web Store User Data Policy</a>, including the Limited Use requirements. Data obtained through Chrome APIs is used solely to provide the Extension's core PDF processing functionality. No data is transferred to third parties except to Lemon Squeezy for license validation. No human reads user data.</p>
 
         <h2>Changes to This Policy</h2>
-        <p>We may update this policy from time to time. Changes will be communicated through the extension's update notes.</p>
+        <p>We may update this Privacy Policy from time to time. Changes will be posted on this page with an updated revision date.</p>
 
         <h2>Contact</h2>
-        <p>Questions about this policy? Email <a href="mailto:privacy@banshii.com">privacy@banshii.com</a>.</p>
+        <p>If you have questions about this Privacy Policy, please contact us at <a href="mailto:jerome.gilden@gmail.com">jerome.gilden@gmail.com</a>.</p>
       </div>
     </div>
   </section>
@@ -76,7 +108,7 @@
           <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="fl" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#8b5cf6"/><stop offset="100%" stop-color="#6366f1"/></linearGradient></defs><rect width="512" height="512" rx="112" fill="url(#fl)"/><ellipse cx="256" cy="272" rx="88" ry="105" stroke="#fff" stroke-width="10" fill="none" opacity=".85"/><ellipse cx="220" cy="248" rx="20" ry="9" fill="#fff" opacity=".95" transform="rotate(-5 220 248)"/><ellipse cx="292" cy="248" rx="20" ry="9" fill="#fff" opacity=".95" transform="rotate(5 292 248)"/><ellipse cx="256" cy="328" rx="28" ry="40" stroke="#fff" stroke-width="8" fill="none" opacity=".9"/></svg>
           banshii
         </a>
-        <div class="footer-copy">&copy; 2025 banshii. All rights reserved.</div>
+        <div class="footer-copy">&copy; 2026 banshii. All rights reserved.</div>
       </div>
     </div>
   </footer>

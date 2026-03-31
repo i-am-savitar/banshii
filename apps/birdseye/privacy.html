@@ -32,40 +32,88 @@
       <div class="subpage-content">
         <a href="../../#apps" class="back-link">&larr; Back to Apps</a>
         <h1>Birdseye Privacy Policy</h1>
-        <p class="subtitle">Last updated: March 2025</p>
+        <p class="subtitle">Last updated: March 27, 2026</p>
 
-        <h2>Overview</h2>
-        <p>banshii ("we", "our", "us") operates Birdseye. This Privacy Policy explains how we collect, use, and protect your information.</p>
+        <p>birdseye ("the App") is developed by banshii ("we," "us," or "our"). We built birdseye with privacy as a core principle. This Privacy Policy explains how the App handles your data.</p>
 
-        <h2>Information We Collect</h2>
+        <h2>Summary</h2>
+        <p>birdseye stores all your data locally on your device. We do not collect, transmit, or store any personal information on external servers. We have no analytics, no tracking, and no third-party SDKs.</p>
+
+        <h2>Data Storage</h2>
+        <p>All data you create in birdseye — including trips, expenses, group members, receipt images, diary entries, and preferences — is stored locally on your device. On iOS, this uses Apple's SwiftData framework. On Android, this uses Room database. This data is protected by your device's passcode and encryption.</p>
+        <p>We do not operate any servers or cloud infrastructure. Your data is never uploaded, synced, or backed up to any service operated by us.</p>
+        <p>If you use iCloud Backup (iOS) or Google Backup (Android) on your device, your birdseye data may be included in your device backup according to the respective platform's terms.</p>
+
+        <h2>Data We Do Not Collect</h2>
+        <p>We do not collect, store, or process:</p>
         <ul>
-          <li><strong>Account information:</strong> Email address when you create an account (optional).</li>
-          <li><strong>Usage data:</strong> Anonymous analytics to help us improve the app.</li>
-          <li><strong>Local data:</strong> Content you create within Birdseye is stored on your device by default.</li>
+          <li>Personal identification information (name, email, phone number, address)</li>
+          <li>Location data or GPS coordinates</li>
+          <li>Device identifiers or fingerprints</li>
+          <li>Usage analytics or behavioral data</li>
+          <li>Crash reports or diagnostics (beyond what Apple or Google collects via their own systems)</li>
+          <li>Advertising identifiers</li>
+          <li>Health or biometric data</li>
         </ul>
 
-        <h2>How We Use Your Information</h2>
+        <h2>Currency Exchange Rates</h2>
+        <p>birdseye fetches currency exchange rates from the <a href="https://frankfurter.dev" target="_blank" rel="noopener">Frankfurter API</a>, a free, open-source service.</p>
         <ul>
-          <li>To provide and maintain the service</li>
-          <li>To sync data across devices (when enabled)</li>
-          <li>To improve the app through anonymous usage analytics</li>
-          <li>To send important service updates</li>
+          <li><strong>What is sent:</strong> A standard HTTPS request containing the currencies to convert (e.g., "USD to EUR"). No personal data, device identifiers, or user information is included.</li>
+          <li><strong>When it occurs:</strong> Rates are fetched when you first open the App or when cached rates are older than 24 hours.</li>
+          <li><strong>Offline fallback:</strong> If no network connection is available, the App uses approximate built-in rates.</li>
         </ul>
 
-        <h2>Data Sharing</h2>
-        <p>We do not sell or share your personal information with third parties. Anonymous aggregate analytics may be used to improve our products.</p>
+        <h2>Receipt Scanning</h2>
+        <p>birdseye includes a receipt scanning feature that uses your device's camera to photograph receipts and extract text.</p>
+        <ul>
+          <li><strong>Camera access:</strong> The App requests camera permission only when you choose to scan a receipt. Photos are processed and stored entirely on your device.</li>
+          <li><strong>OCR processing:</strong> Text extraction uses Apple's Vision framework (iOS) or Google's ML Kit Text Recognition (Android), both of which run entirely on-device.</li>
+          <li><strong>AI parsing (iOS Pro):</strong> On supported iOS devices, birdseye Pro uses Apple Intelligence to parse receipt text into structured items. This processing runs on-device.</li>
+        </ul>
+
+        <h2>In-App Purchases</h2>
+        <ul>
+          <li>Purchase transactions are processed entirely by Apple or Google.</li>
+          <li>We do not collect or store your payment information on any server.</li>
+          <li>Purchase verification happens on-device using Apple's StoreKit 2 (iOS) or Google Play Billing Library (Android).</li>
+        </ul>
+
+        <h2>Group Members and Contact Information</h2>
+        <p>When you add travel companions, you may optionally enter their name, email address, or phone number. This information is:</p>
+        <ul>
+          <li>Stored locally on your device only</li>
+          <li>Never transmitted to any server or third party</li>
+          <li>Used solely within the App for group member display and expense splitting</li>
+          <li>Deleted when you remove the group member from the App</li>
+        </ul>
+
+        <h2>Children's Privacy</h2>
+        <p>birdseye is not directed at children under the age of 13. We do not knowingly collect personal information from children.</p>
+
+        <h2>Third-Party Services</h2>
+        <p>birdseye does not integrate any third-party SDKs, analytics services, advertising networks, or tracking tools. The only external service communication is the currency rate API described above.</p>
+
+        <h2>Data Deletion</h2>
+        <p>Since all data is stored locally on your device, you have full control:</p>
+        <ul>
+          <li><strong>Delete individual items:</strong> Remove any trip, expense, group member, or diary entry from within the App.</li>
+          <li><strong>Delete all data:</strong> Uninstalling the App removes all birdseye data from your device.</li>
+        </ul>
 
         <h2>Data Security</h2>
-        <p>We use industry-standard security measures including encryption in transit and at rest. Local data remains on your device unless you opt in to cloud sync.</p>
-
-        <h2>Your Rights</h2>
-        <p>You can access, correct, or delete your data at any time. Contact <a href="mailto:privacy@banshii.com">privacy@banshii.com</a> to exercise your rights.</p>
+        <p>Your data is protected by:</p>
+        <ul>
+          <li><strong>Device encryption:</strong> All data is encrypted when the device is locked.</li>
+          <li><strong>App sandboxing:</strong> Both iOS and Android prevent other apps from accessing birdseye's data.</li>
+          <li><strong>No network exposure:</strong> Since data is never transmitted, there is no risk of interception or server breach.</li>
+        </ul>
 
         <h2>Changes to This Policy</h2>
-        <p>We may update this policy periodically. Significant changes will be communicated through the app.</p>
+        <p>We may update this Privacy Policy from time to time. Any changes will be reflected in the "Last Updated" date at the top.</p>
 
-        <h2>Contact</h2>
-        <p>Questions? Email <a href="mailto:privacy@banshii.com">privacy@banshii.com</a>.</p>
+        <h2>Contact Us</h2>
+        <p>If you have questions about this Privacy Policy, please contact us at <a href="mailto:jerome.gilden@gmail.com">jerome.gilden@gmail.com</a>.</p>
       </div>
     </div>
   </section>
@@ -77,7 +125,7 @@
           <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="fl" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#8b5cf6"/><stop offset="100%" stop-color="#6366f1"/></linearGradient></defs><rect width="512" height="512" rx="112" fill="url(#fl)"/><ellipse cx="256" cy="272" rx="88" ry="105" stroke="#fff" stroke-width="10" fill="none" opacity=".85"/><ellipse cx="220" cy="248" rx="20" ry="9" fill="#fff" opacity=".95" transform="rotate(-5 220 248)"/><ellipse cx="292" cy="248" rx="20" ry="9" fill="#fff" opacity=".95" transform="rotate(5 292 248)"/><ellipse cx="256" cy="328" rx="28" ry="40" stroke="#fff" stroke-width="8" fill="none" opacity=".9"/></svg>
           banshii
         </a>
-        <div class="footer-copy">&copy; 2025 banshii. All rights reserved.</div>
+        <div class="footer-copy">&copy; 2026 banshii. All rights reserved.</div>
       </div>
     </div>
   </footer>

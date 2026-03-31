@@ -444,6 +444,15 @@ body::before {
 .card-icon.red { background: rgba(239, 68, 68, 0.15); color: #ef4444; }
 .card-icon.blue { background: rgba(59, 130, 246, 0.15); color: #3b82f6; }
 
+.card-app-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 14px;
+  margin-bottom: 20px;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
 .card h3 {
   margin-bottom: 10px;
   color: var(--text);

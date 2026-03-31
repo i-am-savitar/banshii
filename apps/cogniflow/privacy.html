@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CogniFlow — Privacy Policy | banshii</title>
+  <meta name="description" content="CogniFlow collects zero personal data. All study data stays on your device.">
   <link rel="icon" type="image/svg+xml" href="../../assets/logo.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -32,44 +33,78 @@
       <div class="subpage-content">
         <a href="../../#apps" class="back-link">&larr; Back to Apps</a>
         <h1>CogniFlow Privacy Policy</h1>
-        <p class="subtitle">Last updated: March 2025</p>
+        <p class="subtitle">Last updated: March 31, 2026</p>
 
-        <h2>Overview</h2>
-        <p>banshii ("we", "our", "us") operates CogniFlow. This Privacy Policy explains how we collect, use, and protect your information when you use our application.</p>
+        <h2>1. Overview</h2>
+        <p>CogniFlow is designed with your privacy as a core architectural principle, not an afterthought. We believe your study habits, learning patterns, and personal data belong to you and only you.</p>
+        <p>The short version: <strong>CogniFlow collects no personal data. All your study data stays on your device. We have no servers, no analytics, no tracking, and no ads.</strong></p>
 
-        <h2>Information We Collect</h2>
-        <p>We may collect the following types of information:</p>
+        <h2>2. Data Collection</h2>
+        <p>CogniFlow collects <strong>no personal data whatsoever</strong>. Specifically:</p>
         <ul>
-          <li><strong>Account information:</strong> Email address and display name when you create an account.</li>
-          <li><strong>Usage data:</strong> Anonymous analytics about how you interact with the app to help us improve the experience.</li>
-          <li><strong>Content:</strong> The data you create within CogniFlow, stored securely for sync purposes.</li>
+          <li>We do not collect your name, email address, or any identifying information.</li>
+          <li>We do not collect device identifiers, IP addresses, or location data.</li>
+          <li>We do not use analytics SDKs, crash reporters that upload data, or any telemetry systems.</li>
+          <li>We do not use cookies, tracking pixels, or fingerprinting techniques.</li>
+          <li>We do not collect usage patterns, session data, or behavioral information.</li>
+          <li>We do not serve advertisements or share data with advertising networks.</li>
+        </ul>
+        <p>CogniFlow does not require an account to use. There is no sign-up, no login, and no user profile stored on any server.</p>
+
+        <h2>3. Local Storage</h2>
+        <p>All study data you create within CogniFlow is stored locally on your device using the platform's native encrypted storage mechanisms:</p>
+        <ul>
+          <li><strong>iOS:</strong> Data is stored using SwiftData with <code>FileProtectionType.complete</code>, which means your data is encrypted at rest and inaccessible when your device is locked. The data store is excluded from iCloud backup.</li>
+          <li><strong>Android:</strong> Data is stored using Room with SQLCipher encryption via Jetpack Security. The database is encrypted at rest on your device's local storage.</li>
+        </ul>
+        <p>This data includes your flashcard decks, individual cards, review history, study session logs, scheduler preferences, and retention statistics. None of this data is ever transmitted to any server, cloud service, or third party.</p>
+
+        <h2>4. Subscriptions</h2>
+        <p>CogniFlow offers an optional subscription ("CogniFlow Pro") managed entirely through the Apple App Store or Google Play Store.</p>
+        <ul>
+          <li>Subscription purchases, billing, and payment processing are handled by Apple (for iOS) or Google (for Android) according to their respective privacy policies.</li>
+          <li>CogniFlow does not have access to your payment information, credit card number, or billing address.</li>
+          <li>Subscription status is verified on-device using cryptographically signed receipts provided by Apple or Google. No server-side receipt validation is performed because CogniFlow does not operate any servers.</li>
         </ul>
 
-        <h2>How We Use Your Information</h2>
+        <h2>5. Third-Party Services</h2>
+        <p><strong>CogniFlow does not integrate any third-party services, SDKs, or libraries that collect, transmit, or process user data.</strong> Specifically:</p>
         <ul>
-          <li>To provide and maintain the service</li>
-          <li>To sync your data across devices</li>
-          <li>To improve the app experience through anonymous analytics</li>
-          <li>To communicate important updates about the service</li>
+          <li>No analytics platforms (no Firebase Analytics, Mixpanel, Amplitude, or Segment).</li>
+          <li>No crash reporting services (no Crashlytics, Sentry, or Bugsnag).</li>
+          <li>No advertising SDKs or ad networks.</li>
+          <li>No social media SDKs or sharing integrations.</li>
+          <li>No third-party subscription management platforms (no RevenueCat).</li>
+        </ul>
+        <p>On iOS, CogniFlow uses only native Apple frameworks. On Android, CogniFlow uses only Google's first-party Jetpack libraries and the Play Billing Library.</p>
+
+        <h2>6. Children's Privacy</h2>
+        <p>CogniFlow does not knowingly collect personal information from children under the age of 13. Since CogniFlow does not collect any personal information from any user of any age, there is no data to collect from children. CogniFlow is an educational tool suitable for users of all ages.</p>
+
+        <h2>7. Data Deletion</h2>
+        <p>Since all data is stored locally on your device, you have complete control over your data at all times:</p>
+        <ul>
+          <li><strong>Delete individual items:</strong> You can delete individual cards, decks, or review history from within the app.</li>
+          <li><strong>Delete all data:</strong> You can delete all CogniFlow data from the app's settings screen.</li>
+          <li><strong>Uninstall:</strong> Uninstalling CogniFlow removes all associated data permanently with no residual copies anywhere.</li>
         </ul>
 
-        <h2>Data Sharing</h2>
-        <p>We do not sell, trade, or rent your personal information. We may share anonymized, aggregate data for analytics purposes. Your content is never shared with third parties.</p>
+        <h2>8. Data Portability</h2>
+        <p>CogniFlow Pro subscribers can export their study data in JSON format from within the app. This export includes all decks, cards, and review history in a machine-readable format.</p>
 
-        <h2>Data Security</h2>
-        <p>We use industry-standard encryption and security measures to protect your data both in transit and at rest. However, no method of electronic transmission or storage is 100% secure.</p>
+        <h2>9. Network Permissions</h2>
+        <p>CogniFlow's core functionality is designed to work entirely offline. Network access is used only for subscription verification through the App Store or Play Store, and this communication occurs between your device and Apple or Google, not between your device and any CogniFlow server.</p>
 
-        <h2>Data Retention</h2>
-        <p>We retain your data for as long as your account is active. You can request deletion of your data at any time by contacting us.</p>
+        <h2>10. Changes to This Policy</h2>
+        <p>If we make changes to this privacy policy, we will update this page and change the "Last updated" date at the top. For significant changes, we will provide notice within the app.</p>
 
-        <h2>Your Rights</h2>
-        <p>You have the right to access, correct, or delete your personal data. To exercise these rights, contact us at <a href="mailto:privacy@banshii.com">privacy@banshii.com</a>.</p>
+        <h2>11. Applicable Law</h2>
+        <p>CogniFlow's zero-data-collection architecture means that most data protection regulations (GDPR, CCPA, APPI, LGPD, POPIA) are satisfied by design. There is no personal data processing to regulate because no personal data is collected, stored, transmitted, or processed.</p>
 
-        <h2>Changes to This Policy</h2>
-        <p>We may update this Privacy Policy from time to time. We will notify you of significant changes through the app or via email.</p>
-
-        <h2>Contact</h2>
-        <p>If you have questions about this Privacy Policy, contact us at <a href="mailto:privacy@banshii.com">privacy@banshii.com</a>.</p>
+        <h2>12. Contact</h2>
+        <p>If you have questions about this privacy policy, contact us:</p>
+        <p><strong>Email:</strong> <a href="mailto:privacy@cogniflow.app">privacy@cogniflow.app</a></p>
+        <p>We will respond to all privacy-related inquiries within 30 days.</p>
       </div>
     </div>
   </section>
@@ -81,7 +116,7 @@
           <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="fl" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#8b5cf6"/><stop offset="100%" stop-color="#6366f1"/></linearGradient></defs><rect width="512" height="512" rx="112" fill="url(#fl)"/><ellipse cx="256" cy="272" rx="88" ry="105" stroke="#fff" stroke-width="10" fill="none" opacity=".85"/><ellipse cx="220" cy="248" rx="20" ry="9" fill="#fff" opacity=".95" transform="rotate(-5 220 248)"/><ellipse cx="292" cy="248" rx="20" ry="9" fill="#fff" opacity=".95" transform="rotate(5 292 248)"/><ellipse cx="256" cy="328" rx="28" ry="40" stroke="#fff" stroke-width="8" fill="none" opacity=".9"/></svg>
           banshii
         </a>
-        <div class="footer-copy">&copy; 2025 banshii. All rights reserved.</div>
+        <div class="footer-copy">&copy; 2026 banshii. All rights reserved.</div>
       </div>
     </div>
   </footer>

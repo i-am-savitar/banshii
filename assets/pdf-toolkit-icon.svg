@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2DD4A0"/>
+      <stop offset="100%" stop-color="#1AAD7A"/>
+    </linearGradient>
+  </defs>
+  <!-- Rounded square background -->
+  <rect width="512" height="512" rx="108" fill="url(#bg)"/>
+  <!-- Back page (offset, slightly darker) -->
+  <rect x="168" y="96" width="220" height="280" rx="20" fill="rgba(255,255,255,0.35)"/>
+  <!-- Front page (main document) -->
+  <rect x="124" y="136" width="220" height="280" rx="20" fill="#fff"/>
+  <!-- Fold corner on front page -->
+  <path d="M 296 136 L 344 136 L 344 184 Z" fill="rgba(0,0,0,0.06)"/>
+  <path d="M 296 136 L 296 176 Q 296 184 304 184 L 344 184" fill="none" stroke="rgba(0,0,0,0.08)" stroke-width="2"/>
+  <!-- Three horizontal lines (text representation) -->
+  <rect x="160" y="220" width="148" height="12" rx="6" fill="#1AAD7A" opacity="0.6"/>
+  <rect x="160" y="252" width="120" height="12" rx="6" fill="#1AAD7A" opacity="0.4"/>
+  <rect x="160" y="284" width="138" height="12" rx="6" fill="#1AAD7A" opacity="0.3"/>
+</svg>
