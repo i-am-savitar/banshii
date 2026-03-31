@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)"/>
+  <!-- Flowing hair/wisps -->
+  <path d="M220 175 C215 120 200 70 175 25" stroke="rgba(255,255,255,0.5)" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <path d="M256 165 C256 110 256 60 256 15" stroke="rgba(255,255,255,0.6)" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <path d="M292 175 C297 120 312 70 337 25" stroke="rgba(255,255,255,0.5)" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <path d="M188 195 C168 140 138 90 100 45" stroke="rgba(255,255,255,0.25)" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M324 195 C344 140 374 90 412 45" stroke="rgba(255,255,255,0.25)" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <!-- Face outline -->
+  <ellipse cx="256" cy="272" rx="88" ry="105" stroke="white" stroke-width="10" fill="none" opacity="0.85"/>
+  <!-- Eyes -->
+  <ellipse cx="220" cy="248" rx="20" ry="9" fill="white" opacity="0.95" transform="rotate(-5 220 248)"/>
+  <ellipse cx="292" cy="248" rx="20" ry="9" fill="white" opacity="0.95" transform="rotate(5 292 248)"/>
+  <!-- Screaming mouth -->
+  <ellipse cx="256" cy="328" rx="28" ry="40" stroke="white" stroke-width="8" fill="none" opacity="0.9"/>
+  <!-- Sound waves -->
+  <path d="M355 260 C372 285 372 320 355 345" stroke="rgba(255,255,255,0.45)" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M382 242 C405 278 405 332 382 368" stroke="rgba(255,255,255,0.25)" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <path d="M157 260 C140 285 140 320 157 345" stroke="rgba(255,255,255,0.45)" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M130 242 C107 278 107 332 130 368" stroke="rgba(255,255,255,0.25)" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <!-- Ghost trail -->
+  <path d="M230 375 C225 420 215 460 195 495" stroke="rgba(255,255,255,0.15)" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M256 378 C256 420 256 460 256 498" stroke="rgba(255,255,255,0.2)" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M282 375 C287 420 297 460 317 495" stroke="rgba(255,255,255,0.15)" stroke-width="8" fill="none" stroke-linecap="round"/>
+</svg>
