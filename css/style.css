@@ -499,6 +499,13 @@ body::before {
   border: 1px solid rgba(139, 92, 246, 0.2);
 }
 
+h3 .badge {
+  vertical-align: middle;
+  margin-left: 8px;
+  position: relative;
+  top: -1px;
+}
+
 .badge-live {
   background: rgba(16, 185, 129, 0.12);
   color: #10b981;
