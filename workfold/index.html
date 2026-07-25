@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Workfold — Make room for your best work</title>
+  <meta name="description" content="Workfold is a calm, intelligent workspace for projects, plans and the work that needs your attention. Join the private beta.">
+  <link rel="icon" type="image/png" href="../assets/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Manrope:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="workfold-site">
+  <nav class="nav workfold-nav">
+    <div class="nav-inner">
+      <a href="../" class="nav-logo"><img src="../assets/banshii-mark.png" alt="">banshii</a>
+      <div class="workfold-wordmark"><span class="wf-glyph">W</span> Workfold</div>
+      <ul class="nav-links">
+        <li><a href="#overview">Overview</a></li>
+        <li><a href="#principles">Why Workfold</a></li>
+        <li><a href="waitlist.html" class="nav-cta">Join the waitlist</a></li>
+      </ul>
+      <button class="mobile-toggle" aria-label="Toggle navigation"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+
+  <main>
+    <section class="wf-hero">
+      <canvas class="three-canvas" data-scene="workfold" aria-hidden="true"></canvas>
+      <div class="wf-aurora" aria-hidden="true"></div>
+      <div class="container wf-hero-copy reveal">
+        <p class="eyebrow">A more considered way to work</p>
+        <h1>Make room for<br><span>your best work.</span></h1>
+        <p>Workfold brings the important parts of your day into one calm, private workspace—so you can see what matters and move with intention.</p>
+        <div class="hero-cta">
+          <a href="waitlist.html" class="btn btn-primary">Join the private beta <span>→</span></a>
+          <a href="#overview" class="text-link">See how it feels <span>↓</span></a>
+        </div>
+      </div>
+      <div class="wf-window reveal reveal-delay-2" aria-label="Stylised Workfold interface preview">
+        <div class="window-top"><i></i><i></i><i></i><span>Workfold</span><b>Friday, 24 July</b></div>
+        <div class="window-body">
+          <aside><strong>Today</strong><span>Projects</span><span>Calendar</span><small>PLACES</small><span class="active">Patient portal</span><span>Website launch</span></aside>
+          <div class="window-main">
+            <p>Good morning, Alex</p><h3>Here’s what deserves your attention.</h3>
+            <div class="today-line"><time>09:00</time><div><b>Finish API review</b><small>Patient portal · 50 min</small></div></div>
+            <div class="today-line now"><time>10:00</time><div><b>Design catch-up</b><small>Meeting · 30 min</small></div></div>
+            <div class="today-line"><time>11:00</time><div><b>Prepare release notes</b><small>Website launch · 45 min</small></div></div>
+          </div>
+          <div class="window-side"><span>Now</span><h4>Design catch-up</h4><p>Starts in 8 minutes</p><hr><small>THEN</small><b>Focus time</b></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="wf-statement" id="overview">
+      <div class="container reveal">
+        <p class="section-index">Less juggling. More knowing.</p>
+        <h2>The shape of your work,<br><em>made visible.</em></h2>
+        <p>Workfold keeps projects, decisions, meetings and time in one place, then helps you find the next sensible move. No performance theatre. No noisy dashboard. Just useful clarity.</p>
+      </div>
+    </section>
+
+    <section class="wf-features" id="principles">
+      <div class="container">
+        <article class="wf-feature large reveal">
+          <div><span>01</span><h3>One place to think.</h3><p>Keep the living context around your work close—not scattered across a dozen tabs.</p></div>
+          <div class="context-art" aria-hidden="true"><i></i><i></i><i></i><b>Everything relevant.<br>Nothing noisy.</b></div>
+        </article>
+        <div class="wf-feature-pair">
+          <article class="wf-feature reveal"><span>02</span><h3>A day that fits.</h3><p>See commitments, focus and breathing room as one honest picture.</p><div class="mini-schedule"><i style="--w:42%"></i><i style="--w:72%"></i><i style="--w:55%"></i></div></article>
+          <article class="wf-feature dark reveal"><span>03</span><h3>Intelligence, quietly useful.</h3><p>Ask, plan and shape the work with assistance that understands where you are.</p><div class="soft-orb"></div></article>
+        </div>
+        <article class="wf-feature privacy reveal"><div><span>04</span><h3>Your work stays yours.</h3></div><p>Designed with privacy and choice at the centre, including local intelligence where your device supports it.</p></article>
+      </div>
+    </section>
+
+    <section class="wf-close">
+      <canvas class="three-canvas" data-scene="close" aria-hidden="true"></canvas>
+      <div class="container reveal"><p class="eyebrow">Coming to macOS and Windows</p><h2>Ready for work to<br>feel a little lighter?</h2><a href="waitlist.html" class="btn btn-light">Join the waitlist <span>→</span></a></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner"><a href="../" class="footer-logo"><img src="../assets/banshii-mark.png" alt="">banshii</a><p>Workfold is currently in private development.</p><div class="footer-links"><a href="../">Studio</a><a href="waitlist.html">Waitlist</a></div><div class="footer-copy">© 2026 banshii</div></div>
+  </footer>
+  <script type="module" src="../js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Join the Workfold waitlist</title>
+  <meta name="description" content="Join the private beta waitlist for Workfold on macOS and Windows.">
+  <link rel="icon" type="image/png" href="../assets/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Manrope:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="waitlist-site">
+  <nav class="nav scrolled">
+    <div class="nav-inner">
+      <a href="../" class="nav-logo"><img src="../assets/banshii-mark.png" alt="">banshii</a>
+      <div class="workfold-wordmark"><span class="wf-glyph">W</span> Workfold</div>
+      <a href="./" class="text-link">Back to Workfold <span>↗</span></a>
+    </div>
+  </nav>
+  <main class="waitlist-main">
+    <canvas class="three-canvas" data-scene="waitlist" aria-hidden="true"></canvas>
+    <section class="waitlist-card reveal">
+      <p class="eyebrow">Private beta</p>
+      <h1>Be among the first<br>to unfold your day.</h1>
+      <p>Workfold is being shaped in the open with a small group of thoughtful testers. Join the list for early access on macOS and Windows.</p>
+      <form class="waitlist-form" id="waitlist-form">
+        <div class="form-row">
+          <div class="form-group"><label for="waitlist-name">Name</label><input id="waitlist-name" name="name" autocomplete="name" placeholder="Your name" required></div>
+          <div class="form-group"><label for="waitlist-email">Email</label><input id="waitlist-email" type="email" name="email" autocomplete="email" placeholder="you@example.com" required></div>
+        </div>
+        <div class="form-group"><label for="platform">Your computer</label><div class="platform-choice"><label><input type="radio" name="platform" value="macOS" checked><span>macOS</span></label><label><input type="radio" name="platform" value="Windows"><span>Windows</span></label><label><input type="radio" name="platform" value="Both"><span>Both</span></label></div></div>
+        <div class="form-group"><label for="role">What kind of work do you manage?</label><input id="role" name="role" placeholder="Projects, product, operations…"></div>
+        <button class="btn btn-primary" type="submit">Join the waitlist <span>→</span></button>
+        <small>Low-volume updates only. Your details will never be sold or shared.</small>
+      </form>
+      <div class="waitlist-success" hidden><span>✓</span><h2>You’re on the list.</h2><p>Thanks for helping shape a calmer way to work. We’ll be in touch when a place opens.</p><a href="./" class="text-link">Return to Workfold <span>→</span></a></div>
+    </section>
+  </main>
+  <script type="module" src="../js/main.js"></script>
+</body>
+</html>
